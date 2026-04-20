@@ -1,0 +1,98 @@
+/* 🌿 GLOBAL */
+body {
+    background: linear-gradient(135deg, #9AD872, #F0FFC2);
+    font-family: 'Poppins', sans-serif;
+    color: #1b5e20; /* darker text for readability */
+}
+
+/* 🌿 GLASS EFFECT */
+.glass {
+    background: rgba(255, 255, 255, 0.4); /* slightly stronger for light bg */
+    backdrop-filter: blur(15px);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+}
+
+/* 🌿 HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.4);
+    backdrop-filter: blur(10px);
+}
+
+/* 🌿 BUTTON */
+.btn {
+    background: linear-gradient(45deg, #2e7d32, #66bb6a);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover {
+    transform: scale(1.05);
+}
+
+/* 🌿 HERO */
+.hero {
+    text-align: center;
+    color: #1b5e20;
+    padding: 60px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* 🌿 ANIMATION */
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(20px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+
+/* 🌿 CARD */
+.card {
+    background: rgba(255,255,255,0.5);
+    padding: 20px;
+    border-radius: 12px;
+    margin: 10px;
+    text-align: center;
+    transition: 0.3s;
+    backdrop-filter: blur(10px);
+}
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* 🌿 FOOTER */
+.footer {
+    text-align: center;
+    color: #2e7d32;
+    padding: 20px;
+    opacity: 0.8;
+}
+
+/* 🌿 MODAL LOGIN */
+.modal {
+    background: rgba(255,255,255,0.5);
+    backdrop-filter: blur(20px);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+/* 🌿 INPUT FIELDS */
+input, textarea {
+    border-radius: 8px !important;
+    border: 1px solid #c5e1a5 !important;
+    padding: 8px !important;
+}
+
+/* 🌿 SCROLL SMOOTH */
+html {
+    scroll-behavior: smooth;
+}

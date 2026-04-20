@@ -1,0 +1,10 @@
+streamlit
+fastapi
+uvicorn
+google-generativeai
+sqlalchemy
+passlib
+bcrypt
+python-multipart
+pillow
+requests
